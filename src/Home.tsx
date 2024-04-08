@@ -1,7 +1,6 @@
 import { FaGithub } from "react-icons/fa";
 import SideBar from "./SideBar";
 
-
 export default function Home() {
   return (
     <>
@@ -27,8 +26,7 @@ export default function Home() {
                 <p className="text-white text-justify">
 "Bad code smell" adalah istilah dalam pengembangan perangkat lunak yang digunakan untuk menggambarkan tanda-tanda atau indikasi adanya potensi masalah dalam kode sumber. Istilah ini berasal dari konsep bahwa jika ada bau di dalam kode, kemungkinan besar ada masalah di sana yang perlu diperbaiki.
                 </p>
-
-                <p className="text-white"><FaGithub /> https://github.com/JonathanMaverick/CodeReengineering</p>
+                <a href="https://github.com/JonathanMaverick/CodeReengineering"> <FaGithub size={40} color="white" /> </a>
                 <p className="text-2xl font-bold text-white">
                 D6665 - REZKI YUNANDA, S.Kom., M.Kom
                 </p>
